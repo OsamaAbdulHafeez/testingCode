@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className={`flex xl:container mx-auto`}>
       <Sidebar openSideBar={openSideBar}/>
-      <div className={`w-full lg:w-[78%] bg-stone-400`}>
+      <div className={`w-full lg:w-[78%]`}>
         <Navbar setOpenSideBar={setOpenSideBar}/>
         <div className="border-b-2 border-gray-300"></div>
         <div className="flex justify-between items-center px-4 sm:px-5 md:px-6 lg:px-10 py-4">
